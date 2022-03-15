@@ -1,0 +1,11 @@
+{
+  "name": "docker-gitlab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:natrad100/docker-gitlab.git",
+  "author": "Nathan Edwards <nathan.edwards@greenroomrobotics.com>",
+  "license": "MIT",
+  "scripts": {
+    "prod:up": "&& docker-compose --env-file .env -f ./docker-compose.yaml"
+  }
+}
